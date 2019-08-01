@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/monferno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:onClick="fade"
+        app:srcCompat="@drawable/monferno"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <ImageView
+        android:id="@+id/infernape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/infernape"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/chimchar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/chimchar"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+</android.support.constraint.ConstraintLayout>
