@@ -10,7 +10,7 @@
         android:id="@+id/monferno"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0"
+        android:alpha="100"
         android:onClick="fade"
         app:srcCompat="@drawable/monferno"
         tools:layout_editor_absoluteX="19dp"
@@ -21,16 +21,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0"
+        android:onClick="fade"
         app:srcCompat="@drawable/infernape"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="45dp" />
-
-    <ImageView
-        android:id="@+id/chimchar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/chimchar"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="285dp" />
 
 </android.support.constraint.ConstraintLayout>
