@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "253160798855",
+    "firebase_url": "https://dataapp-1efb1.firebaseio.com",
+    "project_id": "dataapp-1efb1",
+    "storage_bucket": "dataapp-1efb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253160798855:android:1e3b2375fa7ed932f09622",
+        "android_client_info": {
+          "package_name": "com.example.dataapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253160798855-jdvbf888laebhs8go8c8v1m2akjivhl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwT6G_zqYOhMGcpzGs0063JJ0rWN8oqSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253160798855-jdvbf888laebhs8go8c8v1m2akjivhl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
